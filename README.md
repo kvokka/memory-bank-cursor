@@ -13,4 +13,10 @@ This setup allows for a flexible and context-aware memory system within Cursor, 
 
 ## Quick Start
 
-TODO: Add instructions on how to get started with this project, including any setup, installation, or basic usage commands.
+To get started, you can use a simple installation script. This script will download and set up the necessary `.cursor` directory from the repository.
+
+Run the following command in your terminal:
+
+```bash
+curl -L https://github.com/kvokka/memory-bank-cursor/archive/refs/heads/main.tar.gz | tar -xz memory-bank-cursor-main/.cursor && cp -r memory-bank-cursor-main/.cursor . && rm -rf memory-bank-cursor-main
+```
